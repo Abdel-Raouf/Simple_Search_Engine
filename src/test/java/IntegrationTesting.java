@@ -32,17 +32,4 @@ public class IntegrationTesting {
         Assert.assertEquals(true, writeToSqlite.write(results));
     }
 
-//    // TODO:  We will query sqlite here.
-    @Test
-    public void testQueryWordFromSqlite() {
-        SqliteIndexReader readFromSqlite = new SqliteIndexReader(sqliteDatabasePath);
-        List<String> expectedList = new ArrayList<>();
-        expectedList.add("document 1");
-        expectedList.add("document 2");
-
-
-        Assert.assertEquals(expectedList, readFromSqlite.read("brown"));
-
-    }
-
 }
