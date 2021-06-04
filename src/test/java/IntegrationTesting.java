@@ -1,7 +1,6 @@
 import langdocumentprocessors.EnglishDocumentProcessor;
 import org.junit.Assert;
 import org.junit.Test;
-import storagereader.SqliteIndexReader;
 import storagewriter.SqliteIndexWriter;
 
 import java.util.ArrayList;
@@ -11,7 +10,7 @@ import java.util.Map;
 
 
 public class IntegrationTesting {
-    String sqliteDatabasePath = "jdbc:sqlite:" + String.valueOf(getClass().getResource("/search_engine.db"));
+    String sqliteDatabasePath = "jdbc:sqlite:" + String.valueOf(getClass().getResource("/database/search_engine.db"));
 
     String doc_1 = "the brown fox jumped over the brown dog";
     String doc_2 = "the lazy brown dog sat in the corner";

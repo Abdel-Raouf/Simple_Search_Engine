@@ -7,7 +7,7 @@ import java.util.List;
 
 public class FunctionalTesting {
 
-    String sqliteDatabasePath = "jdbc:sqlite:" + String.valueOf(getClass().getResource("/search_engine.db"));
+    String sqliteDatabasePath = "jdbc:sqlite:" + String.valueOf(getClass().getResource("/database/search_engine.db"));
 
     // TODO:  We will query sqlite here.
     @Test
