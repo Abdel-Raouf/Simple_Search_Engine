@@ -9,7 +9,7 @@ import java.util.List;
 import java.util.Map;
 
 // unit testing using Junit.
-public class unitTesting {
+public class UnitTesting {
 
     String doc_1 = "the brown fox jumped over the brown dog";
     String doc_2 = "the lazy brown dog sat in the corner";
